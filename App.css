@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #555;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ccceaa;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7b7c57;
+}
+
+p {
+  text-align: center;
+}
+
+span {
+  color: #ccceaa;
+  cursor: pointer;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
+.booking-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.booking-buttons button {
+  width: auto;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.locker-history {
+  margin-top: 20px;
+}
